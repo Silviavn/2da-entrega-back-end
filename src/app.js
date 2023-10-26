@@ -1,4 +1,4 @@
-const express = requiere('express')
+const express = require('express')
 
 const app = express()
 const PORT = 8080
@@ -11,5 +11,5 @@ app.use('/',(req,res) => {
 })
 
 app.listen(PORT, () => {
-    console.log('Server li sten on port ${PORT}')
+    console.log('Servidor escuchando el puerto ${PORT}')
 })
